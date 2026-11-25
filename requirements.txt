@@ -1,0 +1,7 @@
+jsonschema>=4.0
+numpy
+scipy
+Pillow
+requests
+google-genai
+pytest
