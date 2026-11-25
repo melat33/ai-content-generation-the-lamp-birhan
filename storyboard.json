@@ -1,0 +1,356 @@
+{
+  "version": "0.2",
+  "title": "The Lamp (ብርሃን)",
+  "author": "Melat",
+  "logline": "Ethiopia built wonders when it honoured those who built and learned. What happens to a nation when it stops honouring them?",
+  "language": "am",
+  "subtitle_language": "en",
+  "style_block": "painted storybook illustration, warm ochre and gold palette, soft film grain, hand-painted texture, gentle lamplight, no text, no realistic faces",
+  "reference": {
+    "symbol": "small brass oil lamp and open leather-bound book",
+    "prompt": "a small brass oil lamp beside an open leather-bound book on a wooden table, centred, plain background, character and style reference sheet",
+    "seed": 1001
+  },
+  "music": {
+    "caption": "slow cinematic underscore, Ethiopian pentatonic feel, soft plucked krar and strings, kebero drum, warm and reflective, gentle texture, no strong lead melody",
+    "instrumental": true,
+    "bpm": 72,
+    "key": "D minor",
+    "duration_s": 75,
+    "seed": 2001
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "act": "built",
+      "duration_s": 7,
+      "shot_size": "wide",
+      "reason": "Establish greatness (Lalibela) and introduce the lamp symbol",
+      "image_prompt": "Dawn over a rock-hewn church carved down into red stone, a hand in the foreground lights a small brass oil lamp",
+      "motion_prompt": "Slow push-in, lamp flame flickers gently, soft mist drifting",
+      "narration": {
+        "am": "በድንጋይ ውስጥ አብያተ ክርስቲያናትን ቀርጸን ነበር።",
+        "en": "Long ago, we carved churches out of stone."
+      },
+      "music_cue": "soft entrance, solo drone and light strings",
+      "seed": 3001,
+      "grade": {
+        "saturation": 0.95
+      },
+      "ambience": [
+        {
+          "type": "church_bell",
+          "gain_db": -6
+        },
+        {
+          "type": "choir_drone",
+          "gain_db": -14
+        },
+        {
+          "type": "birds",
+          "gain_db": -16
+        },
+        {
+          "type": "wind",
+          "gain_db": -22
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "act": "built",
+      "duration_s": 7,
+      "shot_size": "medium",
+      "reason": "Show that learning was honoured: scribes copying books",
+      "image_prompt": "Scribes in white shawls copying manuscripts by lamplight, an open leather-bound book and the brass lamp on the table",
+      "motion_prompt": "Static camera, lamp light shimmers, a hand turns a page slowly",
+      "narration": {
+        "am": "መጻሕፍትን በመብራት ብርሃን እንገለብጥ ነበር።",
+        "en": "We copied books by lamplight."
+      },
+      "music_cue": "warm gentle texture, soft kebero rhythm enters",
+      "seed": 3002,
+      "grade": {
+        "saturation": 1.0
+      },
+      "ambience": [
+        {
+          "type": "quill",
+          "gain_db": -8
+        },
+        {
+          "type": "flame",
+          "gain_db": -14
+        },
+        {
+          "type": "choir_drone",
+          "gain_db": -16
+        },
+        {
+          "type": "room_tone",
+          "gain_db": -24
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "act": "built",
+      "duration_s": 7,
+      "shot_size": "wide",
+      "reason": "Strength: the victory at Adwa, 1896, shown symbolically",
+      "image_prompt": "A crowd on a hillside at sunrise with banners and raised hands, no recognisable faces, the brass lamp raised high at the front",
+      "motion_prompt": "Slow pan left to right, banners ripple in wind",
+      "narration": {
+        "am": "አድዋ ላይ ቆመናል፤ ዓለምም ቀና ብሎ ተመለከተን።",
+        "en": "We stood at Adwa, and the world looked up."
+      },
+      "music_cue": "music builds, proud and open",
+      "seed": 3003,
+      "grade": {
+        "saturation": 1.05
+      },
+      "ambience": [
+        {
+          "type": "crowd",
+          "gain_db": -12
+        },
+        {
+          "type": "kebero",
+          "gain_db": -8
+        },
+        {
+          "type": "tsenatsel",
+          "gain_db": -14
+        },
+        {
+          "type": "wind",
+          "gain_db": -18
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "act": "built",
+      "duration_s": 7,
+      "shot_size": "medium",
+      "reason": "Modernity: knowledge handed to a new generation",
+      "image_prompt": "A teacher hands the brass lamp and open book to a young student in a 1950s Addis Ababa courtyard, a small aeroplane in the sky",
+      "motion_prompt": "Gentle push-in, aeroplane drifts across the sky",
+      "narration": {
+        "am": "ዩኒቨርሲቲ ከፍተን፣ አውሮፕላኖችን ወደ ሰማይ አስነሳን።",
+        "en": "We opened a university and sent planes into the sky."
+      },
+      "music_cue": "peak of warmth, theme at its fullest",
+      "seed": 3004,
+      "grade": {
+        "saturation": 1.1
+      },
+      "ambience": [
+        {
+          "type": "plane",
+          "gain_db": -10
+        },
+        {
+          "type": "birds",
+          "gain_db": -16
+        },
+        {
+          "type": "crowd",
+          "gain_db": -20
+        },
+        {
+          "type": "church_bell",
+          "gain_db": -18
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "act": "fall",
+      "duration_s": 7,
+      "shot_size": "close",
+      "reason": "Turning point: the light begins to fail",
+      "image_prompt": "Close-up of the brass lamp, flame small and trembling, colours around it turning grey",
+      "motion_prompt": "Slow push-in, flame flickers weakly, colour drains slowly",
+      "narration": {
+        "am": "የተማሩትን እናከብር ስለነበር ገነባን።",
+        "en": "Because we honoured those who learned, we built."
+      },
+      "music_cue": "music thins, a held note turns minor",
+      "seed": 3005,
+      "grade": {
+        "saturation": 0.7
+      },
+      "ambience": [
+        {
+          "type": "flame",
+          "gain_db": -8
+        },
+        {
+          "type": "room_tone",
+          "gain_db": -20
+        },
+        {
+          "type": "choir_drone",
+          "gain_db": -22
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "act": "fall",
+      "duration_s": 8,
+      "shot_size": "wide",
+      "reason": "What was lost: an emptied classroom in 1974",
+      "image_prompt": "An empty classroom with rows of desks, dust in grey light from a window, the book left open on a desk, muted colours",
+      "motion_prompt": "Static camera, dust floats in the light shaft",
+      "narration": {
+        "am": "ከዚያ 1966 ዓ.ም. መጣ። ክፍሎች ባዷቸውን ቀሩ።",
+        "en": "Then came 1974. The classrooms emptied."
+      },
+      "music_cue": "sparse, low strings, silence between notes",
+      "seed": 3006,
+      "grade": {
+        "saturation": 0.35
+      },
+      "ambience": [
+        {
+          "type": "room_tone",
+          "gain_db": -14
+        },
+        {
+          "type": "wind",
+          "gain_db": -26
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "act": "fall",
+      "duration_s": 7,
+      "shot_size": "medium",
+      "reason": "Educated people forced to leave or be silent",
+      "image_prompt": "At night a teacher silhouette packs the book into an old suitcase beside a dim lamp, long shadows",
+      "motion_prompt": "Slow push-in, shadow moves across the wall",
+      "narration": {
+        "am": "መምህራን መጻሕፍታቸውን አሽገው በጨለማ ሄዱ።",
+        "en": "Teachers packed their books and left in the dark."
+      },
+      "music_cue": "low and tense, quiet pulse",
+      "seed": 3007,
+      "grade": {
+        "saturation": 0.3
+      },
+      "ambience": [
+        {
+          "type": "latch",
+          "gain_db": -8
+        },
+        {
+          "type": "footsteps",
+          "gain_db": -14
+        },
+        {
+          "type": "room_tone",
+          "gain_db": -18
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "act": "fall",
+      "duration_s": 8,
+      "shot_size": "wide",
+      "reason": "Consequence: hardship, told without blaming a group",
+      "image_prompt": "Dry cracked land under a grey sky, a lone empty path, faded colours",
+      "motion_prompt": "Slow pan across the landscape, wind blowing dust",
+      "narration": {
+        "am": "ብዙ መገንባት የሚችሉ ዝም ተባሉ፣ ወይም ተሰደዱ። ምድሪቱም ጸጥ አለች።",
+        "en": "Many who could have built were silenced, or gone. And the land grew quiet."
+      },
+      "music_cue": "emptiest moment, near silence",
+      "seed": 3008,
+      "grade": {
+        "saturation": 0.2
+      },
+      "ambience": [
+        {
+          "type": "wind",
+          "gain_db": -8
+        },
+        {
+          "type": "room_tone",
+          "gain_db": -26
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "act": "question",
+      "duration_s": 9,
+      "shot_size": "close",
+      "reason": "Hope returns: a student finds the old lamp",
+      "image_prompt": "Close-up of a young student's hands lifting the old brass lamp and book from a dusty desk, a thin line of warm light",
+      "motion_prompt": "Slow push-in, dust lifts, warm light grows",
+      "narration": {
+        "am": "ግን አንድ ተማሪ አሁንም መብራቱን ያገኛል።",
+        "en": "But somewhere, a student still finds the lamp."
+      },
+      "music_cue": "theme returns softly, single instrument",
+      "seed": 3009,
+      "grade": {
+        "saturation": 0.6
+      },
+      "ambience": [
+        {
+          "type": "flame",
+          "gain_db": -4
+        },
+        {
+          "type": "birds",
+          "gain_db": -14
+        },
+        {
+          "type": "room_tone",
+          "gain_db": -16
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "act": "question",
+      "duration_s": 8,
+      "shot_size": "medium",
+      "reason": "The question lands, then the AI end card",
+      "image_prompt": "A student lights the lamp in a small room, dawn light fills the window, colour returns, warm gold",
+      "motion_prompt": "Slow push-in, flame steadies, light brightens, fade to end card",
+      "narration": {
+        "am": "እንደገና ብናበራውስ? የሚያስቡትን፣ የሚያስተምሩትንና የሚገነቡትን ብናከብራቸውስ?",
+        "en": "What if we lit it again? What if we valued those who think, teach and build?"
+      },
+      "music_cue": "full theme returns, resolves and fades",
+      "seed": 3010,
+      "grade": {
+        "saturation": 1.15
+      },
+      "ambience": [
+        {
+          "type": "church_bell",
+          "gain_db": -8
+        },
+        {
+          "type": "birds",
+          "gain_db": -14
+        },
+        {
+          "type": "choir_drone",
+          "gain_db": -14
+        },
+        {
+          "type": "flame",
+          "gain_db": -14
+        }
+      ]
+    }
+  ]
+}
