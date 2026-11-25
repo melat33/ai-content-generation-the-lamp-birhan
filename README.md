@@ -8,10 +8,9 @@ Narration in **Amharic**, English subtitles, original sound design, an AI end ca
 
 | | |
 |---|---|
-| **Film (9:16)** | _add link_ |
-| **Film (16:9)** | _add link_ |
-| **Walkthrough (max 5 min)** | _add link_ |
-| **Public post** | _add link_ |
+| **Film (9:16)** |outputs\final\film_9x16.mp4 |
+| **Film (16:9)** | outputs\final\film_16x9.mp4 |
+| **Walkthrough (max 5 min)** | https://drive.google.com/file/d/1gDOFzEFd6Rh9yS04R0dd92ExEvJHv0FL/view?usp=sharing|
 
 > **The idea:** one file, `storyboard.json`, is the contract. Every stage reads it and writes its own output, so you can change one shot and regenerate only that shot.
 
