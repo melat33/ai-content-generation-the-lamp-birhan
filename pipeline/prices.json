@@ -1,0 +1,1 @@
+{"_note": "Fill from each provider pricing page on the day you measure; leave null if free. Used by pipeline/cost_report.py for the list-price equivalent.", "narration": {"usd_per_call": null}, "keyframes": {"usd_per_call": null}, "wan": {"usd_per_gpu_minute": null}, "music": {"usd_per_call": null}}
